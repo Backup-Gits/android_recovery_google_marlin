@@ -28,6 +28,8 @@ PRODUCT_MODEL := Pixel
 PRODUCT_MANUFACTURER := Google
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
+OF_MAINTAINER := DarkPlayer
+
 PRODUCT_COPY_FILES += device/google/marlin/fstab.common:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.marlin
 
 $(call inherit-product, device/google/marlin/device-sailfish.mk)
